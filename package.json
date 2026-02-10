@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "npm run fix-binaries && node node_modules/vite/bin/vite.js build",
     "preview": "node node_modules/vite/bin/vite.js preview",
-    "postinstall": "node -e \"const fs=require('fs'),path=require('path');const p=path.join(process.cwd(),'node_modules/@esbuild/linux-x64/bin/esbuild');if(process.platform!=='win32'&&fs.existsSync(p))fs.chmodSync(p,0o755)\"",
+    "fix-binaries": "node scripts/fix-binaries.js",
+    "postinstall": "npm run fix-binaries",
     "figma:check": "node scripts/figma-sync.js check",
     "figma:diff": "node scripts/figma-sync.js diff"
   },

@@ -1,0 +1,31 @@
+# Dependencies and build output (rebuilt in image)
+node_modules/
+build/
+dist/
+
+# Env and local config
+.env
+.env.*
+.env.*.local
+
+# Figma sync and temp
+temp/
+reports/
+.figma-sync-state.json
+
+# Git and IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# Logs and misc
+*.log
+npm-debug.log*
+.pnpm-debug.log*
