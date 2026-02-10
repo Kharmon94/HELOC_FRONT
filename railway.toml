@@ -3,7 +3,7 @@
 # Optional: set VITE_API_URL in Railway to your API URL (e.g. https://heloc-api.railway.app)
 
 [build]
-builder = "docker"
+builder = "DOCKERFILE"
 
 [deploy]
 restartPolicyType = "on_failure"
