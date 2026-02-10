@@ -1,0 +1,33 @@
+/* Brand Colors */
+:root {
+  --brand-blue: #026EC4;
+  --brand-cyan: #0ECEEO;
+  --brand-blue-rgb: 2, 110, 196;
+  --brand-cyan-rgb: 14, 206, 224;
+}
+
+@theme {
+  --color-brand-blue: #026EC4;
+  --color-brand-cyan: #0ECEEO;
+  
+  /* Light variations */
+  --color-brand-blue-50: #e6f2fb;
+  --color-brand-blue-100: #cce5f7;
+  --color-brand-blue-200: #99cbef;
+  --color-brand-blue-400: #3498d9;
+  --color-brand-blue-500: #026EC4;
+  --color-brand-blue-600: #02589d;
+  --color-brand-blue-700: #014276;
+  --color-brand-blue-800: #012c4f;
+  --color-brand-blue-900: #011627;
+  
+  --color-brand-cyan-50: #e7fcfe;
+  --color-brand-cyan-100: #cff9fc;
+  --color-brand-cyan-200: #9ff3f9;
+  --color-brand-cyan-400: #3fe4f4;
+  --color-brand-cyan-500: #0ECEEO;
+  --color-brand-cyan-600: #0ba5b3;
+  --color-brand-cyan-700: #087c86;
+  --color-brand-cyan-800: #06535a;
+  --color-brand-cyan-900: #03292d;
+}
