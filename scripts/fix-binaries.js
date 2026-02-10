@@ -3,8 +3,8 @@
  * Ensure npm-installed native binaries are executable (fixes EACCES in Docker/Railway).
  * No-op on Windows; on Unix chmods known paths when present.
  */
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const root = process.cwd();
 const binaries = [
